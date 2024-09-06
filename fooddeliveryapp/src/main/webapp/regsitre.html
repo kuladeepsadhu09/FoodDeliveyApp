@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register App</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #F5F5F5;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 36px;
+            color: #F57C00;
+        }
+        .header p {
+            margin: 0;
+            font-size: 14px;
+            color: #F5F5F5;
+        }
+        table {
+            width: 100%;
+            border-spacing: 0;
+        }
+        td {
+            padding: 10px;
+            vertical-align: top;
+        }
+        .form-label {
+            font-size: 16px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #333;
+            color: #F5F5F5;
+            font-size: 16px;
+        }
+        .form-button {
+            padding: 10px 20px;
+            background-color: #F57C00;
+            color: #F5F5F5;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+        }
+        .footer-text {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>SWAMY FOOD APP</h2>
+        </div>
+        <form action="regester">
+            <table>
+                <tr>
+                    <td><label for="name" class="form-label">Name</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Enter your name" class="form-input"></td>
+                </tr>
+                <tr>
+                    <td><label for="email" class="form-label">Email</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Enter your email" class="form-input"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobilenumber" class="form-label">Mobile Number</label></td>
+                    <td><input type="tel" id="mobilenumber" name="mobilenumber" placeholder="Enter your mobile number" class="form-input"></td>
+                </tr>
+                <tr>
+                    <td><label for="addres" class="form-label">Address</label></td>
+                    <td><input type="text" id="addres" name="addres" placeholder="Enter your address" class="form-input"></td>
+                </tr>
+                <tr>
+                    <td><label for="password" class="form-label">Password</label></td>
+                    <td><input type="password" id="password" name="password" placeholder="Enter your password" class="form-input"></td>
+                </tr>
+                <tr>
+                    <td><label for="cpassword" class="form-label">Confirm Password</label></td>
+                    <td><input type="password" id="cpassword" name="cpassword" placeholder="Confirm your password" class="form-input"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit" class="form-button">Register</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
